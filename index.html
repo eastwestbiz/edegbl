@@ -1,45 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 
 <head>
   <!--====== Required meta tags ======-->
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <meta name="description" content="EDE GLOBAL - A diversified holding company offering apparel & garments, architectural services, and catering solutions" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-  <!--====== Title ======-->
-  <title>EDE GLOBAL | Diversified Business Solutions</title>
+  <!--====== Title & Description ======-->
+  <title>EDE GLOBAL | Diversified Business Solutions - Apparel, Architecture & Catering</title>
+  <meta name="description" content="EDE GLOBAL is a diversified holding company in Bengaluru providing expert solutions in apparel manufacturing, architectural design, and catering services. Located at Purnajyothi Layout, Chikkajala." />
+  
+  <!--====== SEO & Indexing Meta Tags ======-->
+  <meta name="keywords" content="EDE GLOBAL, holding company, apparel manufacturing, architectural services, catering solutions, garment industry, construction design, food services, Bengaluru business" />
+  <meta name="author" content="EDE GLOBAL" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="theme-color" content="#ffffff" />
+  <link rel="canonical" href="https://edeglobal.in/" />
+
+  <!--====== Local SEO / Geo Tags ======-->
+  <meta name="geo.region" content="IN-KA" />
+  <meta name="geo.placename" content="Bengaluru" />
+  <meta name="geo.position" content="13.1760613;77.6198321" />
+  <meta name="ICBM" content="13.1760613, 77.6198321" />
+
+  <!--====== Open Graph / Facebook ======-->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://edeglobal.in/" />
+  <meta property="og:title" content="EDE GLOBAL | Diversified Business Solutions" />
+  <meta property="og:description" content="EDE GLOBAL is a diversified holding company providing expert solutions in apparel manufacturing, architectural design, and catering services." />
+  <meta property="og:image" content="https://edeglobal.in/assets/images/header/hero-image.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="EDE GLOBAL" />
+  <meta property="og:locale" content="en_US" />
+
+  <!--====== Twitter ======-->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://edeglobal.in/" />
+  <meta name="twitter:title" content="EDE GLOBAL | Diversified Business Solutions" />
+  <meta name="twitter:description" content="EDE GLOBAL is a diversified holding company providing expert solutions in apparel manufacturing, architectural design, and catering services." />
+  <meta name="twitter:image" content="https://edeglobal.in/assets/images/header/hero-image.jpg" />
+
+  <!--====== Structured Data (JSON-LD) ======-->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Corporation",
+      "name": "EDE GLOBAL",
+      "alternateName": "E.D.E. GLOBAL",
+      "url": "https://edeglobal.in/",
+      "logo": "https://edeglobal.in/assets/images/header/hero-image.jpg",
+      "image": "https://edeglobal.in/assets/images/header/hero-image.jpg",
+      "description": "A diversified holding company offering comprehensive business solutions across apparel & garments, architectural design, and catering solutions.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "No.16, Purnajyothi Layout, Meenukunte Grama Panchayath, Bynahalli Village, Jala Hobli, Chikkajala",
+        "addressLocality": "Bengaluru",
+        "addressRegion": "Karnataka",
+        "postalCode": "562157",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 13.1760613,
+        "longitude": 77.6198321
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-9741432834",
+        "contactType": "customer service",
+        "email": "info@edeglobal.in",
+        "areaServed": "IN",
+        "availableLanguage": ["English", "Kannada", "Hindi"]
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:30",
+          "closes": "18:30"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/edeglobal",
+        "https://twitter.com/edeglobal",
+        "https://www.linkedin.com/company/edeglobal"
+      ]
+    }
+  </script>
+
+  <!--====== Preconnect & Preload ======-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://translate.google.com" />
+  <link rel="preconnect" href="https://translate.googleapis.com" />
+  
+  <!-- Preload Critical Hero Image -->
+  <link rel="preload" as="image" href="assets/images/header/hero-image.jpg" fetchpriority="high" />
 
   <!--====== Favicon Icon ======-->
   <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/svg" />
+  <link rel="apple-touch-icon" href="assets/images/favicon.svg" />
 
-  <!--====== Bootstrap css ======-->
+  <!--====== Critical CSS ======-->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-
-  <!--====== Line Icons css ======-->
   <link rel="stylesheet" href="assets/css/lineicons.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 
-  <!--====== Tiny Slider css ======-->
-  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+  <!--====== Non-Critical CSS (Deferred) ======-->
+  <link rel="stylesheet" href="assets/css/tiny-slider.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="assets/css/tiny-slider.css" /></noscript>
 
-  <!--====== gLightBox css ======-->
-  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+  <link rel="stylesheet" href="assets/css/glightbox.min.css" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="assets/css/glightbox.min.css" /></noscript>
 
-  <link rel="stylesheet" href="style.css" />
+  <!-- JS Detection -->
+  <script>document.documentElement.classList.remove("no-js");</script>
 </head>
 
 <body>
 
   <!--====== NAVBAR NINE PART START ======-->
-
-  <section class="navbar-area navbar-nine">
+  <header class="navbar-area navbar-nine">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="index.html">
-              <span style="color: white; font-weight: bold; font-size: 24px;">EDE GLOBAL</span>
+          <nav class="navbar navbar-expand-lg" aria-label="Main Navigation">
+            <a class="navbar-brand notranslate" href="index.html" aria-label="EDE GLOBAL Home" style="color: white; font-size: 40px; font-weight: bold;">
+              EDE GLOBAL
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
               aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,66 +152,42 @@
                   <a class="page-scroll" href="#contact">Contact</a>
                 </li>
               </ul>
-            </div>
-
-            <div class="navbar-btn d-none d-lg-inline-block">
-              <a class="menu-bar" href="#side-menu-left"><i class="lni lni-menu"></i></a>
+              <!-- Google Translate Widget -->
+              <div id="google_translate_element" class="ms-3"></div>
             </div>
           </nav>
-          <!-- navbar -->
         </div>
       </div>
-      <!-- row -->
     </div>
-    <!-- container -->
-  </section>
-
+  </header>
   <!--====== NAVBAR NINE PART ENDS ======-->
 
   <!--====== SIDEBAR PART START ======-->
-
-  <div class="sidebar-left">
+  <aside class="sidebar-left" aria-label="Sidebar Information">
     <div class="sidebar-close">
-      <a class="close" href="#close"><i class="lni lni-close"></i></a>
+      <a class="close" href="#close" aria-label="Close Sidebar"><i class="lni lni-close"></i></a>
     </div>
     <div class="sidebar-content">
       <div class="sidebar-logo">
-        <a href="index.html"><span style="color: var(--primary); font-weight: bold; font-size: 24px;">EDE GLOBAL</span></a>
+        <a href="index.html" aria-label="EDE GLOBAL Home">
+          <span style="color: var(--primary); font-weight: bold; font-size: 24px;">E<span style="color: var(--primary); font-size: 1px;">.</span>D<span style="color: var(--primary); font-size: 1px;">.</span>E<span style="color: var(--primary); font-size: 1px;">.</span> GLOBAL</span>
+        </a>
       </div>
       <p class="text">A diversified holding company offering comprehensive business solutions across multiple industries.</p>
-      <!-- logo -->
-      <div class="sidebar-menu">
-        <h5 class="menu-title">Quick Links</h5>
-        <ul>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Our Services</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </div>
-      <!-- menu -->
+      
+      <!-- Social Media Links -->
       <div class="sidebar-social align-items-center justify-content-center">
         <h5 class="social-title">Follow Us On</h5>
         <ul>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a>
-          </li>
-          <li>
-            <a href="javascript:void(0)"><i class="lni lni-youtube"></i></a>
-          </li>
+          <li><a href="javascript:void(0)" aria-label="Follow us on Facebook" rel="noopener noreferrer"><i class="lni lni-facebook-filled"></i></a></li>
+          <li><a href="javascript:void(0)" aria-label="Follow us on Twitter" rel="noopener noreferrer"><i class="lni lni-twitter-original"></i></a></li>
+          <li><a href="javascript:void(0)" aria-label="Connect with us on LinkedIn" rel="noopener noreferrer"><i class="lni lni-linkedin-original"></i></a></li>
+          <li><a href="javascript:void(0)" aria-label="Subscribe to our YouTube channel" rel="noopener noreferrer"><i class="lni lni-youtube"></i></a></li>
         </ul>
       </div>
-      <!-- sidebar social -->
     </div>
-    <!-- content -->
-  </div>
+  </aside>
   <div class="overlay-left"></div>
-
   <!--====== SIDEBAR PART ENDS ======-->
 
   <!-- Start header Area -->
@@ -131,21 +196,32 @@
       <div class="row align-items-center">
         <div class="col-lg-6 col-md-12 col-12">
           <div class="header-content">
-            <h1>EDE GLOBAL - Diversified Business Solutions</h1>
+            <h1>Diverse Industries Expertise. Singular Excellence.</h1>
             <p>
               A premier holding company offering comprehensive services across apparel & garments, 
               architectural design, and catering solutions. We deliver excellence through innovation, 
               quality, and customer-centric approaches.
             </p>
             <div class="button">
-              <a href="#services" class="btn primary-btn">Our Services</a>
-              <a href="#contact" class="btn primary-btn-outline">Contact Us</a>
+              <a href="#services" class="btn primary-btn" aria-label="View our services">Our Services</a>
+              <a href="#contact" class="btn primary-btn page-scroll" aria-label="Contact us for inquiries">Contact Us</a>
+              <a href="#location-actions" class="btn primary-btn page-scroll" aria-label="View location on Google Maps">View on Map</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-12">
+        <div class="col-lg-6 col-md-12 col-12" id="map-section">
           <div class="header-image">
-            <img src="assets/images/header/hero-image.jpg" alt="EDE GLOBAL Business Solutions" />
+            <!-- Optimized Image: High priority, explicit dimensions -->
+            <img 
+              src="assets/images/header/hero-image.jpg" 
+              alt="EDE GLOBAL - Apparel, Architecture, and Catering Business Solutions" 
+              width="600" 
+              height="400"
+              loading="eager" 
+              fetchpriority="high" 
+              decoding="async" 
+              style="width: 100%; height: auto;"
+            />
           </div>
         </div>
       </div>
@@ -154,14 +230,13 @@
   <!-- End header Area -->
 
   <!--====== ABOUT FIVE PART START ======-->
-
-  <section id="about" class="about-area about-five">
+  <section id="about" class="about-area about-five" aria-label="About EDE Global">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-6 col-12">
           <div class="about-image-five">
-            <svg class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none"
-              xmlns="http://www.w3.org/2000/svg">
+            <!-- Decorative SVG Shape -->
+            <svg class="shape" width="106" height="134" viewBox="0 0 106 134" fill="none" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
               <circle cx="1.66654" cy="1.66679" r="1.66667" fill="#DADADA" />
               <circle cx="1.66654" cy="16.3335" r="1.66667" fill="#DADADA" />
               <circle cx="1.66654" cy="31.0001" r="1.66667" fill="#DADADA" />
@@ -243,13 +318,22 @@
               <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA" />
               <circle cx="104" cy="132" r="1.66667" fill="#DADADA" />
             </svg>
-            <img src="assets/images/about/about-img1.jpg" alt="EDE GLOBAL About Us" />
+            <!-- Optimized Image: Lazy loaded with dimensions -->
+            <img 
+              src="assets/images/about/about-img1.jpg" 
+              alt="EDE GLOBAL corporate office and team" 
+              width="550" 
+              height="650"
+              loading="lazy" 
+              decoding="async" 
+              style="height: auto; max-width: 100%;"
+            />
           </div>
         </div>
         <div class="col-lg-6 col-12">
           <div class="about-five-content">
             <h6 class="small-title text-lg">OUR STORY</h6>
-            <h2 class="main-title fw-bold">EDE GLOBAL - Excellence in Diversified Business Solutions</h2>
+            <h2 class="main-title fw-bold notranslate">EDE GLOBAL - Excellence in Diversified Business Solutions</h2>
             <div class="about-five-tab">
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -271,11 +355,15 @@
                   <p>We aim to continuously expand our portfolio while maintaining the highest standards of excellence, creating value for our customers, partners, and stakeholders through every business interaction.</p>
                 </div>
                 <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
-                  <p>EDE GLOBAL is headquartered at:</p>
-                  <p><strong>No.16, Purnajyothi Layout, Meenukunte Grama Panchayath,<br>
-                  Bynahalli Village, Jala Hobli, Chikkajala,<br>
-                  Yelahanka Taluk, Bengaluru - 562157</strong></p>
-                  <p>Our strategic location in Bengaluru allows us to serve clients across India and beyond with efficiency and excellence.</p>
+                    <p class="notranslate">EDE GLOBAL is headquartered at:</p>
+                  <address class="mb-0" style="font-style: normal; line-height: 1.6;">
+                    <strong class="notranslate">EDE GLOBAL</strong><br>
+                    No.16, Purnajyothi Layout, Meenukunte Grama Panchayath,<br>
+                    Bynahalli Village, Jala Hobli, Chikkajala,<br>
+                    Yelahanka Taluk, Bengaluru - 562157,<br>
+                    Karnataka, INDIA
+                  </address>
+                  <p class="mt-3">Our strategic location in Bengaluru allows us to serve clients across India and beyond with efficiency and excellence.</p>
                 </div>
               </div>
             </div>
@@ -283,42 +371,41 @@
         </div>
       </div>
     </div>
-    <!-- container -->
   </section>
-
   <!--====== ABOUT FIVE PART ENDS ======-->
 
   <!-- ===== service-area start ===== -->
-  <section id="services" class="services-area services-eight">
-    <!--======  Start Section Title Five ======-->
+  <section id="services" class="services-area services-eight" aria-labelledby="services-heading">
     <div class="section-title-five">
       <div class="container">
         <div class="row">
           <div class="col-12">
             <div class="content">
-              <h6>Services</h6>
-              <h2 class="fw-bold">Our Business Divisions</h2>
+              <h6 class="text-uppercase">Services</h6>
+              <h2 id="services-heading" class="fw-bold">Our Business Divisions</h2>
               <p>
-                EDE GLOBAL offers comprehensive solutions across multiple industries, 
+                <span class="notranslate">EDE GLOBAL offers comprehensive solutions across multiple industries,</span> 
                 delivering excellence through specialized expertise and customer-focused approaches.
               </p>
             </div>
           </div>
         </div>
-        <!-- row -->
       </div>
-      <!-- container -->
     </div>
-    <!--======  End Section Title Five ======-->
     <div class="container">
       <div class="row">
+        <!-- Service 1: Apparel -->
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-tshirt"></i>
+              <i class="lni lni-tshirt" aria-hidden="true"></i>
             </div>
             <div class="service-content">
-              <h4><a href="https://edeglobal.in" target="_blank" rel="noopener noreferrer">Apparel & Garments</a></h4>
+              <h3>
+                <a href="https://edeglobal.in" target="_blank" rel="noopener noreferrer" title="Learn more about Apparel & Garments">
+                  Apparel & Garments
+                </a>
+              </h3>
               <p>
                 Complete garment product development and manufacturing services. 
                 Wholesale distribution, franchise retailing, and e-commerce solutions 
@@ -327,13 +414,18 @@
             </div>
           </div>
         </div>
+        <!-- Service 2: Architecture -->
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-home"></i>
+              <i class="lni lni-home" aria-hidden="true"></i>
             </div>
             <div class="service-content">
-              <h4><a href="https://edeglobal.in" target="_blank" rel="noopener noreferrer">Architect Services</a></h4>
+              <h3>
+                <a href="https://edeglobal.in" target="_blank" rel="noopener noreferrer" title="Learn more about Architect Services">
+                  Architect Services
+                </a>
+              </h3>
               <p>
                 Comprehensive architectural design for residential buildings, 
                 construction services, interior design, and turnkey project solutions 
@@ -342,13 +434,18 @@
             </div>
           </div>
         </div>
+        <!-- Service 3: Catering -->
         <div class="col-lg-4 col-md-6">
           <div class="single-services">
             <div class="service-icon">
-              <i class="lni lni-restaurant"></i>
+              <i class="lni lni-restaurant" aria-hidden="true"></i>
             </div>
             <div class="service-content">
-              <h4><a href="https://edeglobal.in" target="_blank" rel="noopener noreferrer">Catering Services</a></h4>
+              <h3>
+                <a href="https://edeglobal.in" target="_blank" rel="noopener noreferrer" title="Learn more about Catering Services">
+                  Catering Services
+                </a>
+              </h3>
               <p>
                 Professional catering solutions including takeaway services, 
                 door delivery, indoor/outdoor catering for events, and daily 
@@ -363,19 +460,19 @@
   <!-- ===== service-area end ===== -->
 
   <!-- Start Cta Area -->
-  <section id="call-action" class="call-action">
+  <section id="call-action" class="call-action" aria-labelledby="cta-heading">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
           <div class="inner-content">
-            <h2>Partner with EDE GLOBAL for Excellence</h2>
+            <h2 id="cta-heading" class="notranslate">Partner with EDE GLOBAL for Excellence</h2>
             <p>
               Whether you need premium garments, architectural design, or catering services, 
-              EDE GLOBAL delivers quality solutions tailored to your specific requirements. 
+                <span class="notranslate">EDE GLOBAL</span> delivers quality solutions tailored to your specific requirements. 
               Our diversified expertise ensures comprehensive service across multiple industries.
             </p>
             <div class="light-rounded-buttons">
-              <a href="#contact" class="btn primary-btn-outline">Get In Touch</a>
+              <a href="#contact" class="btn primary-btn-outline" aria-label="Contact EDE Global for inquiries">Get In Touch</a>
             </div>
           </div>
         </div>
@@ -385,19 +482,31 @@
   <!-- End Cta Area -->
 
   <!-- ========================= contact-section start ========================= -->
-  <section id="contact" class="contact-section">
+  <section id="contact" class="contact-section" itemscope itemtype="https://schema.org/Organization">
+    <meta itemprop="name" content="EDE GLOBAL" />
+    <meta itemprop="url" content="https://edeglobal.in/" />
+    <meta itemprop="logo" content="https://edeglobal.in/assets/images/header/hero-image.jpg" />
+    
     <div class="container">
       <div class="row justify-content-center text-center gy-4">
         <!-- Contact Item 1: Phone & Email -->
         <div class="col-lg-4 col-md-6">
           <div class="contact-item">
             <div class="contact-icon">
-              <i class="lni lni-phone"></i>
+              <i class="lni lni-phone" aria-hidden="true"></i>
             </div>
             <div class="contact-content">
               <h4>Contact</h4>
-              <p><a href="tel:+919741432834" style="text-decoration:none; color:inherit;">+91 9741432834</a></p>
-              <p><a href="mailto:info@edeglobal.in" style="text-decoration:none; color:inherit;">info@edeglobal.in</a></p>
+              <p>
+                <a href="tel:+919741432834" itemprop="telephone" aria-label="Call us at +91 9741432834" class="text-decoration-none text-dark">
+                  +91 9741432834
+                </a>
+              </p>
+              <p>
+                <a href="mailto:info@edeglobal.in" itemprop="email" aria-label="Email us at info@edeglobal.in" class="text-decoration-none text-dark">
+                  info@edeglobal.in
+                </a>
+              </p>
             </div>
           </div>
         </div>
@@ -405,11 +514,15 @@
         <div class="col-lg-4 col-md-6">
           <div class="contact-item">
             <div class="contact-icon">
-              <i class="lni lni-map-marker"></i>
+              <i class="lni lni-map-marker" aria-hidden="true"></i>
             </div>
             <div class="contact-content">
               <h4>Address</h4>
-              <p>No.16, Purnajyothi Layout, Bynahalli Village, Jala Hobli, Chikkajala, Bengaluru - 562157, Karnataka, INDIA</p>
+              <address itemprop="address" itemscope itemtype="https://schema.org/PostalAddress" class="mb-0 fst-normal">
+                <span itemprop="streetAddress">No.16, Purnajyothi Layout, Bynahalli Village, Jala Hobli, Chikkajala</span>, 
+                <span itemprop="addressLocality">Bengaluru</span> - <span itemprop="postalCode">562157</span>, 
+                <span itemprop="addressRegion">Karnataka</span>, <span itemprop="addressCountry">INDIA</span>
+              </address>
             </div>
           </div>
         </div>
@@ -417,148 +530,296 @@
         <div class="col-lg-4 col-md-6">
           <div class="contact-item">
             <div class="contact-icon">
-              <i class="lni lni-alarm-clock"></i>
+              <i class="lni lni-alarm-clock" aria-hidden="true"></i>
             </div>
             <div class="contact-content">
               <h4>Business Hours</h4>
+              <meta itemprop="openingHours" content="Mo-Sat 09:30-18:30" />
               <p>Mon - Sat: 9.30 AM - 6.30 PM</p>
-                <p>Sunday: By Appointment Only</p>
-              </div>
-              </div>
-            </div>
+              <p>Sunday: By Appointment Only</p>
             </div>
           </div>
-          </section>
-          <!-- ========================= contact-section end ========================= -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================= contact-section end ========================= -->
 
-          <!-- Map section placed below contact section -->
-          <section class="map-section map-style-9" style="padding:0; margin-top:40px;">
-            <div class="container">
-            <div class="row">
-              <div class="col-12">
-              <div class="map-container" style="width:100%; height:400px; overflow:hidden; border-radius:8px;">
-                <iframe
-                title="EDE Global location"
-                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3884.663907005647!2d77.61725717507999!3d13.18390598715123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTPCsDExJzAyLjEiTiA3N8KwMzcnMTEuNCJF!5e0!3m2!1sen!2sin!4v1716987654321!5m2!1sen!2sin"
-                style="width:100%; height:100%; border:0; display:block;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-              </div>
-            </div>
-            </div>
-          </section>
-          <!-- End Map Section -->
-  
+  <!-- Map Navigation Buttons -->
+  <section id="location-actions" class="services-area services-eight pt-5 pb-4" aria-label="Location Actions">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-12 col-12 text-center">
+          <div class="button">
+              <a href="https://www.google.com/maps/dir//No.16,+EDE+GLOBAL,+Purnajyothi+Layout,+Meenukunte+Grama+Panchayath,+Jala+Hobli,+Chikkajala,+Yelahanka+Taluk,+Bynahalli,+Bengaluru,+Karnataka+562157,+India/@13.1761348,77.6172561,17z/data=!4m16!1m7!3m6!1s0x3bae1f40a30b729b:0xd079ba6b809ea31c!2sEDE+GLOBAL!8m2!3d13.1761296!4d77.619831!16s%2Fg%2F11y6864cqj!4m7!1m0!1m5!1m1!1s0x3bae1f40a30b729b:0xd079ba6b809ea31c!2m2!1d77.619831!2d13.1761296?entry=ttu&amp;g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D" 
+                 target="_blank" 
+                 rel="noopener noreferrer nofollow" 
+                 class="btn primary-btn-outline me-2">
+                 Get Directions
+              </a>
+              <a href="https://maps.app.goo.gl/Uy7PD1KN5LFRJ4ct6" 
+                 target="_blank" 
+                 rel="noopener noreferrer nofollow" 
+                 class="btn primary-btn-outline">
+                 Share Location
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Map Section -->
+  <section id="google-map-view" class="map-section map-style-9 mt-4 p-0" aria-label="Google Map Location">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="map-container" style="width:100%; height:400px; overflow:hidden; border-radius:8px;">
+            <iframe
+              title="Location Map of EDE GLOBAL, Bengaluru"
+              src="https://www.google.com/maps?q=13.1760613,77.6198321&amp;z=17&amp;output=embed"
+              style="width:100%; height:100%; border:0; display:block;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Start Footer Area -->
-  <footer class="footer-area footer-eleven">
-    <!-- Start Footer Top -->
+  <footer class="footer-area footer-eleven" role="contentinfo">
     <div class="footer-top">
       <div class="container">
         <div class="inner-content">
-          <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
-              <!-- Single Widget -->
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="footer-widget f-link">
+                <h5>Services</h5>
+                <nav aria-label="Footer Services Navigation">
+                  <ul>
+                    <li><a href="#services" aria-label="Apparel and Garments Services">Apparel & Garments</a></li>
+                    <li><a href="#services" aria-label="Architectural Services">Architect Services</a></li>
+                    <li><a href="#services" aria-label="Catering Services">Catering Services</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="footer-widget f-link">
+                <h5>Quick Links</h5>
+                <nav aria-label="Footer Quick Links">
+                  <ul>
+                    <li><a href="#hero-area">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
+              <div class="footer-widget f-link">
+                <h5>Contact Us</h5>
+                <ul>
+                  <li><a href="tel:+919741432834" aria-label="Call EDE Global">+91 9741432834</a></li>
+                  <li><a href="mailto:info@edeglobal.in" aria-label="Email EDE Global">info@edeglobal.in</a></li>
+                  <li><a href="#contact" aria-label="View Location Map">Location</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12">
               <div class="footer-widget f-about">
                 <div class="logo">
-                  <a href="index.html">
-                    <span style="color: var(--primary); font-weight: bold; font-size: 24px;">EDE GLOBAL</span>
+                  <a href="index.html" class="navbar-brand notranslate" aria-label="EDE GLOBAL Home">
+                    <span class="notranslate" style="color: var(--primary); font-weight: bold; font-size: 28px; line-height: 40px;">EDE GLOBAL</span>
                   </a>
                 </div>
                 <p>
                   A diversified holding company delivering excellence across apparel & garments, 
                   architectural services, and catering solutions.
                 </p>
-                <p class="copyright-text" style="white-space: nowrap; display: inline-block;">© <span id="ede-current-year"></span> EDE GLOBAL. All rights reserved.</p>
-                <script>
-                  (function(){
-                    var y = new Date().getFullYear();
-                    var el = document.getElementById('ede-current-year');
-                    if (el) el.textContent = y;
-                  })();
-                </script>
+                <p class="copyright-text d-inline-block text-nowrap">
+                    &copy; <span id="ede-current-year">2024</span> <span class="notranslate">EDE GLOBAL</span>All rights reserved.
+                </p>
               </div>
-              <!-- End Single Widget -->
-            </div>
-            <div class="col-lg-2 col-md-6 col-12">
-              <!-- Single Widget -->
-              <div class="footer-widget f-link">
-                <h5>Services</h5>
-                <ul>
-                  <li><a href="#services">Apparel & Garments</a></li>
-                  <li><a href="#services">Architect Services</a></li>
-                  <li><a href="#services">Catering Services</a></li>
-                </ul>
-              </div>
-              <!-- End Single Widget -->
-            </div>
-            <div class="col-lg-2 col-md-6 col-12">
-              <!-- Single Widget -->
-              <div class="footer-widget f-link">
-                <h5>Quick Links</h5>
-                <ul>
-                  <li><a href="#hero-area">Home</a></li>
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </div>
-              <!-- End Single Widget -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--/ End Footer Top -->
   </footer>
   <!--/ End Footer Area -->
 
-  <a href="#" class="scroll-top btn-hover">
+  <a href="#" class="scroll-top btn-hover" aria-label="Scroll to top">
     <i class="lni lni-chevron-up"></i>
   </a>
 
-  <!--====== js ======-->
-  <script src="assets/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/js/glightbox.min.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/tiny-slider.js"></script>
-
+  <!--====== JS Scripts (Deferred for Performance) ======-->
+  <script src="assets/js/bootstrap.bundle.min.js" defer></script>
+  
+  <!-- Optimized Main Script Logic -->
   <script>
+    // Update Copyright Year
+    document.getElementById('ede-current-year').textContent = new Date().getFullYear();
 
-    //===== close navbar-collapse when a  clicked
-    let navbarTogglerNine = document.querySelector(
-      ".navbar-nine .navbar-toggler"
-    );
-    navbarTogglerNine.addEventListener("click", function () {
-      navbarTogglerNine.classList.toggle("active");
+    // Performance & Security Helper
+    (function () {
+      'use strict';
+
+      // 1. Security: Disable Right Click & Copy
+      const disallowKeys = ['a','c','x','s','u','p'];
+      document.body.style.userSelect = 'none';
+      document.body.style.webkitUserSelect = 'none';
+      
+      ['copy','cut','dragstart','selectstart'].forEach(evt => {
+        document.addEventListener(evt, e => e.preventDefault());
+      });
+      document.addEventListener('contextmenu', e => e.preventDefault());
+      document.addEventListener('keydown', e => {
+        const k = e.key.toLowerCase();
+        if ((e.ctrlKey || e.metaKey) && disallowKeys.includes(k)) e.preventDefault();
+        if (k === 'f12' || (e.ctrlKey && e.shiftKey && ['i','j','c'].includes(k)) || (e.ctrlKey && k === 'u')) {
+          e.preventDefault();
+        }
+      });
+
+      // 2. Lazy Load Background Images
+      if ('IntersectionObserver' in window) {
+        const bgLazy = document.querySelectorAll('[data-bg]');
+        const io = new IntersectionObserver(entries => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              const el = e.target;
+              el.style.backgroundImage = `url(${el.getAttribute('data-bg')})`;
+              io.unobserve(el);
+            }
+          });
+        }, { rootMargin: '300px 0px' });
+        bgLazy.forEach(el => io.observe(el));
+      }
+
+      // 3. Font Display Swap Fix
+      document.fonts && document.fonts.ready.then(() => {
+        Array.from(document.styleSheets).forEach(ss => {
+          try {
+            Array.from(ss.cssRules || []).forEach(r => {
+              if (r.type === CSSRule.FONT_FACE_RULE && !/font-display/i.test(r.cssText)) {
+                r.style.fontDisplay = 'swap';
+              }
+            });
+          } catch (_) {}
+        });
+      });
+
+      // 4. Link Prefetching on Hover
+      const internalLinks = document.querySelectorAll('a[href$=".html"]:not([data-noprefetch])');
+      internalLinks.forEach(a => {
+        let loaded = false;
+        const prefetch = () => {
+          if (loaded) return;
+          loaded = true;
+          const l = document.createElement('link');
+          l.rel = 'prefetch';
+          l.href = a.href;
+          document.head.appendChild(l);
+        };
+        a.addEventListener('mouseenter', prefetch, { passive: true });
+        a.addEventListener('focus', prefetch);
+      });
+
+      // 5. Load Optional Scripts (Defer)
+      function loadScript(src) {
+        if (document.querySelector(`script[src="${src}"]`)) return;
+        const s = document.createElement('script');
+        s.src = src;
+        s.async = true;
+        document.body.appendChild(s);
+      }
+
+      const optionalLibs = [
+        'assets/js/glightbox.min.js',
+        'assets/js/tiny-slider.js',
+        'assets/js/main.js'
+      ];
+
+      // Use requestIdleCallback for non-critical scripts
+      const loadOptional = () => {
+        optionalLibs.forEach(lib => loadScript(lib));
+      };
+
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadOptional);
+      } else {
+        setTimeout(loadOptional, 2000);
+      }
+
+      // 6. Google Fonts Loader (Async)
+      const WebFontConfig = {
+        google: {
+            families: [
+            'Noto Sans:400,700', 'Noto Sans Devanagari:400,700', 'Noto Sans Kannada:400,700',
+            'Noto Sans Telugu:400,700', 'Noto Sans Tamil:400,700', 'Noto Sans Gurmukhi:400,700',
+            'Noto Sans Bengali:400,700', 'Noto Sans Gujarati:400,700', 'Noto Sans Malayalam:400,700',
+            'Noto Sans Oriya:400,700', 'Noto Nastaliq Urdu:400,700'
+            ]
+        }
+      };
+      const wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js';
+      wf.async = true;
+      document.head.appendChild(wf);
+
+    })();
+
+    // Google Translate Integration
+    (function() {
+      const gtScript = document.createElement('script');
+      gtScript.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      gtScript.async = true;
+      document.body.appendChild(gtScript);
+    })(); 
+  // Define the callback function globally
+  window.googleTranslateElementInit = function() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'en',
+      includedLanguages: 'en,mr,hi,kn,te,ta,pa,bn,gu,ml,or,ur,as',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+      autoDisplay: false,
+      multilanguagePage: true,
+      gaTrack: true, // Enable Google Analytics tracking for translations if GA is present
+      gaId: 'UA-XXXXX-Y' // Optional: Add your GA ID here if you want specific tracking
+    }, 'google_translate_element');
+
+    // Restore saved language preference
+    const savedLang = localStorage.getItem('googleTranslateLanguage');
+    if (savedLang && savedLang !== 'en') {
+      const checkCombo = setInterval(() => {
+        const combo = document.querySelector('.goog-te-combo');
+        if (combo) {
+          clearInterval(checkCombo);
+          combo.value = savedLang;
+          combo.dispatchEvent(new Event('change'));
+        }
+      }, 500);
+    }
+
+    // Listen for language changes to save preference
+    const observer = new MutationObserver((mutations) => {
+      const combo = document.querySelector('.goog-te-combo');
+      if (combo) {
+        combo.addEventListener('change', () => {
+          localStorage.setItem('googleTranslateLanguage', combo.value);
+        });
+        observer.disconnect();
+      }
     });
+    
+    observer.observe(document.body, { childList: true, subtree: true });
+  };
+</script>
 
-    // ==== left sidebar toggle
-    let sidebarLeft = document.querySelector(".sidebar-left");
-    let overlayLeft = document.querySelector(".overlay-left");
-    let sidebarClose = document.querySelector(".sidebar-close .close");
-
-    overlayLeft.addEventListener("click", function () {
-      sidebarLeft.classList.toggle("open");
-      overlayLeft.classList.toggle("open");
-    });
-    sidebarClose.addEventListener("click", function () {
-      sidebarLeft.classList.remove("open");
-      overlayLeft.classList.remove("open");
-    });
-
-    // ===== navbar nine sideMenu
-    let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
-
-    sideMenuLeftNine.addEventListener("click", function () {
-      sidebarLeft.classList.add("open");
-      overlayLeft.classList.add("open");
-    });
-
-  </script>
 </body>
 
 </html>
