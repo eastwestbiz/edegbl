@@ -1,4 +1,4 @@
-/*
+ /*
   File: assets/js/main.js
   Description: Main JavaScript file for EDE GLOBAL website
   Contains: Template logic (Navbar, Sidebar, Scroll), Optimization/Security, and Google Translate
@@ -252,4 +252,7 @@ window.googleTranslateElementInit = function() {
   
   observer.observe(document.body, { childList: true, subtree: true });
 };
+
+
+
 
