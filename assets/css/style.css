@@ -757,6 +757,10 @@ p {
   background-color: var(--white);
 }
 
+.navbar-area.navbar-nine {
+  padding-top: 30px;
+}
+
 /*===== SIDEBAR ONE =====*/
 .sidebar-left {
   position: fixed;
