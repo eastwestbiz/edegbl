@@ -254,5 +254,18 @@ window.googleTranslateElementInit = function() {
 };
 
 
+// Auto-collapse navbar on mobile when a nav link is clicked
+document.querySelectorAll(".navbar-nav a:not(.dropdown-toggle)").forEach(link => {
+  link.addEventListener("click", () => {
+    const navbarCollapse = document.querySelector(".navbar-collapse");
+    const navbarToggler = document.querySelector(".navbar-toggler");
+
+    if (navbarCollapse && navbarCollapse.classList.contains("show")) {
+      navbarCollapse.classList.remove("show");
+      if (navbarToggler) navbarToggler.classList.remove("active");
+    }
+  });
+});
+
 
 
